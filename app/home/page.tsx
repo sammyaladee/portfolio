@@ -22,13 +22,13 @@ export default function Home() {
 
           {/* Social Icons */}
           <div className="flex gap-16 pt-4">
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/aladeyelu-olufemi-695350198" target="_blank" rel="noopener noreferrer">
               <Image src={linkedInIcon} alt="LinkedIn" width={32} height={32} />
             </a>
-            <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/me/" target="_blank" rel="noopener noreferrer">
               <Image src={facebookIcon} alt="Facebook" width={32} height={32} />
             </a>
-            <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/chef__fizzy/profilecard/?igsh=MXRnMWdjd2lrbjI0eA==" target="_blank" rel="noopener noreferrer">
               <Image src={instagramIcon} alt="Instagram" width={32} height={32} />
             </a>
             <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
