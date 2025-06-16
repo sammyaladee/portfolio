@@ -1,7 +1,7 @@
 import Image from "next/image";
 import linkedInIcon from "../../asset/Frame 135.png";
 import facebookIcon from "../../asset/Social Icons.png";
-import twitterIcon from "../../asset/Social Icons (2).png";
+import githubIcon from "../../asset/github.png";
 import instagramIcon from "../../asset/Social Icons (1).png";
 import myPicture from "../../asset/my-picture.png";
 import DON from "../../asset/DON.png";
@@ -35,8 +35,8 @@ export default function Home() {
             <a href="https://www.instagram.com/chef__fizzy/profilecard/?igsh=MXRnMWdjd2lrbjI0eA==" target="_blank" rel="noopener noreferrer">
               <Image src={instagramIcon} alt="Instagram" width={28} height={28} />
             </a>
-            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-              <Image src={twitterIcon} alt="Twitter" width={28} height={28} />
+            <a href="https://github.com/sammyalade" target="_blank" rel="noopener noreferrer">
+              <Image src={githubIcon} alt="Twitter" width={28} height={28} />
             </a>
           </div>
 
