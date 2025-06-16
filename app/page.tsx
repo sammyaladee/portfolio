@@ -8,7 +8,7 @@ import Contact from "./contact/page";
 export default function Page() {
   return (
     <>
-      <div className="px-16 w-full min-h-screen ">
+      <div className="px-16">
         <Home />
       </div>
 

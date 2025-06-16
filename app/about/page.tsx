@@ -9,10 +9,10 @@ export default function About() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <main className="m-0 p-6 bg-[#25282A] min-h-[calc(100vh-96px)]">
-      <div className="flex items-center justify-center gap-20 max-w-5xl mx-auto min-h-full">
+    <main className="m-0 p-6 sm:p-8 bg-[#25282A]">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20 max-w-5xl mx-auto min-h-full">
         {/* Picture with eclipse behind */}
-        <div className="relative w-80 h-80 flex-shrink-0">
+        <div className="relative w-60 h-60 sm:w-72 sm:h-72 lg:w-80 lg:h-80 flex-shrink-0">
           {/* Eclipse background */}
           <Image
             src={Eclipse}
@@ -22,7 +22,7 @@ export default function About() {
             style={{ zIndex: 0, top: "0", objectPosition: "center bottom" }}
           />
           {/* Profile Picture */}
-          <div className="absolute top-1/2 left-1/2 w-72 h-72 -translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden shadow-lg z-10">
+          <div className="absolute top-1/2 left-1/2 w-52 h-52 sm:w-64 sm:h-64 lg:w-72 lg:h-72 -translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden shadow-lg z-10">
             <Image
               src={myPicture}
               alt="Olufemi's Picture"
@@ -35,7 +35,7 @@ export default function About() {
         </div>
 
         {/* Text content */}
-        <div className="text-gray-300 max-w-xl text-left font-inter">
+        <div className="text-gray-300 max-w-xl text-center lg:text-left font-inter mt-8 lg:mt-0">
           <p className="text-white text-3xl font-inter mb-2">
             About <span className="text-blue-500">Me</span>
           </p>
