@@ -14,7 +14,7 @@ export default function Home() {
         <div className="lg:w-2/3 space-y-4">
           <p className="text-gray-400 text-lg">Hello, it&apos;s Me</p>
           <h1 className="text-3xl font-bold">ALADEYELU OLUFEMI SAMUEL</h1>
-          <h2 className="text-xl text-blue-500 font-semibold">I'm a Software Engineer</h2>
+          <h2 className="text-xl text-blue-500 font-semibold">I&apos;m a Software Engineer</h2>
           <p className="text-gray-300 leading-relaxed">
             Welcome to my portfolio! Dive in to see how I blend 
             creativity and code to build impactful software solutions.
