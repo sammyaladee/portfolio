@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
         {/* Left Section */}
         <div className="lg:w-2/3 space-y-4">
-          <p className="text-gray-400 text-lg">Hello, it&#39;s Me</p>
+          <p className="text-gray-400 text-lg">Hello, it&apos;s Me</p>
           <h1 className="text-3xl font-bold">ALADEYELU OLUFEMI SAMUEL</h1>
           <h2 className="text-xl text-blue-500 font-semibold">I'm a Software Engineer</h2>
           <p className="text-gray-300 leading-relaxed">
