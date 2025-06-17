@@ -53,8 +53,8 @@ export default function Services() {
   return (
     <div className={`${inter.className} max-w-5xl mx-auto p-6 mt-8`}>
       <h1 className="text-center text-4xl font-bold mb-10">
-        <span className="text-white">Our </span>
-        <span className="text-blue-500">Services</span>
+        <span className="text-white">What </span>
+        <span className="text-blue-500">I do</span>
       </h1>
 
       <div className="flex gap-8 overflow-x-auto max-w-full px-2 py-4">

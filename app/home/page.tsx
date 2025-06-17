@@ -25,18 +25,38 @@ export default function Home() {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-8 pt-2">
-            <a href="https://www.linkedin.com/in/aladeyelu-olufemi-695350198" target="_blank" rel="noopener noreferrer">
+          <div className="flex gap-8 pt-2 [&_a]:hover:scale-100 [&_a]:focus:outline-none [&_a]:outline-none">
+            <a
+              href="https://tinyurl.com/AOS-linkedln"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:outline-none focus:outline-none"
+            >
               <Image src={linkedInIcon} alt="LinkedIn" width={28} height={28} />
             </a>
-            <a href="https://www.facebook.com/me/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://tinyurl.com/AOS-facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:outline-none focus:outline-none"
+            >
               <Image src={facebookIcon} alt="Facebook" width={28} height={28} />
             </a>
-            <a href="https://www.instagram.com/chef__fizzy/profilecard/?igsh=MXRnMWdjd2lrbjI0eA==" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://tinyurl.com/AOS-instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:outline-none focus:outline-none"
+            >
               <Image src={instagramIcon} alt="Instagram" width={28} height={28} />
             </a>
-            <a href="https://github.com/sammyalade" target="_blank" rel="noopener noreferrer">
-              <Image src={githubIcon} alt="Twitter" width={28} height={28} />
+            <a
+              href="https://tinyurl.com/AOS-github"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:outline-none focus:outline-none"
+            >
+              <Image src={githubIcon} alt="GitHub" width={28} height={28} />
             </a>
           </div>
 
