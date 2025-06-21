@@ -35,7 +35,7 @@ export default function Home() {
               <Image src={linkedInIcon} alt="LinkedIn" width={28} height={28} />
             </a>
             <a
-              href="https://tinyurl.com/AOS-facebook"
+              href="https://facebook.com/sammyaladee"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:outline-none focus:outline-none"
@@ -43,7 +43,7 @@ export default function Home() {
               <Image src={facebookIcon} alt="Facebook" width={28} height={28} />
             </a>
             <a
-              href="https://tinyurl.com/AOS-instagram"
+              href="https://instagram.com/sammyaladee"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:outline-none focus:outline-none"
@@ -51,7 +51,7 @@ export default function Home() {
               <Image src={instagramIcon} alt="Instagram" width={28} height={28} />
             </a>
             <a
-              href="https://tinyurl.com/AOS-github"
+              href="https://github.com/sammyaladee"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:outline-none focus:outline-none"
