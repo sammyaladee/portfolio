@@ -10,15 +10,31 @@ import otp from '../../asset/OneTrillionPips.jpeg';
 import taskManagement from '../../asset/TaskManagement.webp';
 import nexcent from '../../asset/Nexcent.jpeg';
 import contact from '../../asset/ContactMng.jpeg';
+import oneTrillionPips from '../../asset/one_trillion_pips.png';
+import dentalAlumniFrontend from '../../asset/dental_alumni.png';
 
 const projects = [
   {
-    title: 'Task Management Service',
-    image: taskManagement,
-    description: 'A productivity tool with task tracking and Postman documentation.',
+    title: 'Dental Alumni Frontend (Next.js)',
+    image: dentalAlumniFrontend,
+    description: 'A project showcasing the frontend of a dental alumni management system.',
+    hasDocs: false,
+    liveUrl: 'https://unilagdentalalumni.com',
+  },
+  {
+    title: 'Dental Alumni Backend',
+    image: dentalAlumni,
+    description: 'Backend service with alumni management and documentation.',
     hasDocs: true,
     docsUrl:
-      'https://postman.co/workspace/My-Workspace~474229f6-3a36-412e-8f7e-2061bf6e2fe8/collection/33704092-cc455580-a3e5-4803-a710-1ec36241ea80?action=share&creator=33704092',
+      'https://postman.co/workspace/My-Workspace~474229f6-3a36-412e-8f7e-2061bf6e2fe8/collection/33704092-b48d610e-0982-483f-8908-bafd2dc6a158?action=share&creator=33704092',
+  },
+  {
+    title: 'One Trillion Pips Frontend (Vite.js)',
+    image: oneTrillionPips,
+    description: 'A project showcasing the frontend of a web 2 trading platform.',
+    hasDocs: false,
+    liveUrl: 'https://onetrillionpips.netlify.app',
   },
   {
     title: 'One Trillion Pips Backend',
@@ -29,18 +45,18 @@ const projects = [
       'https://postman.co/workspace/My-Workspace~474229f6-3a36-412e-8f7e-2061bf6e2fe8/collection/33704092-677935bf-a753-48b1-9cf5-43fcbb3872c3?action=share&creator=33704092',
   },
   {
+    title: 'Task Management Service',
+    image: taskManagement,
+    description: 'A productivity tool with task tracking and Postman documentation.',
+    hasDocs: true,
+    docsUrl:
+      'https://postman.co/workspace/My-Workspace~474229f6-3a36-412e-8f7e-2061bf6e2fe8/collection/33704092-cc455580-a3e5-4803-a710-1ec36241ea80?action=share&creator=33704092',
+  },
+  {
     title: 'Hamoni Backend',
     image: hamoni,
     description: 'AI-powered note-taking backend. In progress.',
     hasDocs: false,
-  },
-  {
-    title: 'Dental Alumni Backend',
-    image: dentalAlumni,
-    description: 'Backend service with alumni management and documentation.',
-    hasDocs: true,
-    docsUrl:
-      'https://postman.co/workspace/My-Workspace~474229f6-3a36-412e-8f7e-2061bf6e2fe8/collection/33704092-b48d610e-0982-483f-8908-bafd2dc6a158?action=share&creator=33704092',
   },
   {
     title: 'HealthEase (Backend + Flutter)',
@@ -69,6 +85,7 @@ const projects = [
     docsUrl:
       'https://postman.co/workspace/My-Workspace~474229f6-3a36-412e-8f7e-2061bf6e2fe8/collection/33704092-c1ea630d-9251-4872-bf0f-af97d4f25b2f?action=share&creator=33704092',
   },
+  
 ];
 
 export default function Portfolio() {

@@ -14,39 +14,39 @@ export default function Services() {
 
   const services = [
     {
-      key: 'frontend',
-      title: 'Frontend Engineering',
-      shortText: 'Building responsive and accessible user interfaces using modern frameworks.',
-      fullText:
-        'Building responsive and accessible user interfaces using modern frameworks like React, Vue, and Angular. I focus on performance, usability, and pixel-perfect design implementation.',
-    },
-    {
       key: 'backend',
       title: 'Backend Engineering',
-      shortText: 'Designing scalable APIs and server-side logic with Node.js, Django, and more.',
+      shortText: 'Building scalable APIs and microservices with Java, Python, and Node.js.',
       fullText:
-        'Designing scalable APIs and server-side logic with Node.js, Django, and more. I prioritize security, efficiency, and integration with databases and third-party services.',
+        'Expert in designing and developing scalable backend systems and microservices using Java (Spring Boot), Python (Django), and Node.js. I focus on system architecture, API design, secure integrations, and optimizing performance for reliable and maintainable software.',
     },
     {
-      key: 'mobile',
-      title: 'Mobile App Development',
-      shortText: 'Creating cross-platform mobile apps with React Native and Flutter.',
+      key: 'web3',
+      title: 'Web3 & Blockchain Programming',
+      shortText: 'Developing decentralized applications and smart contracts.',
       fullText:
-        'Creating cross-platform mobile apps with React Native and Flutter that offer seamless user experiences, smooth performance, and native-like look and feel.',
+        'Building secure and efficient decentralized applications using blockchain platforms such as Sui and Ethereum. Experienced in smart contract development, blockchain integrations, and leveraging Web3 technologies to bring transparency and innovation to financial products.',
+    },
+    {
+      key: 'designthinking',
+      title: 'Design Thinking & Product Strategy',
+      shortText: 'Applying user-centered design and lean startup methodologies.',
+      fullText:
+        'Applying design thinking and lean startup principles to deeply understand user needs, frame problems, ideate solutions, and build minimum viable products. Skilled in user research, rapid prototyping, and iterative validation to deliver impactful, user-centric software.',
     },
     {
       key: 'devops',
       title: 'DevOps & Cloud Engineering',
-      shortText: 'Implementing CI/CD pipelines, infrastructure as code, and cloud deployments.',
+      shortText: 'Implementing CI/CD, containerization, and cloud infrastructure.',
       fullText:
-        'Implementing CI/CD pipelines, infrastructure as code using tools like Terraform, and deploying scalable applications on cloud platforms like AWS, Azure, and GCP.',
+        'Hands-on experience with Docker, Kubernetes, Helm, and cloud platforms including Google Cloud Platform and AWS. I build and maintain CI/CD pipelines, infrastructure as code, and scalable deployments to ensure fast, reliable delivery and operational excellence.',
     },
     {
-      key: 'design',
-      title: 'Design Thinking',
-      shortText: 'Applying user-centered design to solve problems and innovate solutions.',
+      key: 'entrepreneurship',
+      title: 'Entrepreneurship & Business Innovation',
+      shortText: 'Driving business model innovation and strategic planning.',
       fullText:
-        'Applying user-centered design principles to understand user needs deeply, brainstorm creative solutions, and prototype effective products with iterative feedback.',
+        'Trained in entrepreneurship with a focus on business model innovation, market analysis, and strategic execution. Experienced in startup operations, value proposition design, and aligning technology solutions with business goals for sustainable growth.',
     },
   ];
 
