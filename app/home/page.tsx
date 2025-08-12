@@ -27,7 +27,7 @@ export default function Home() {
           {/* Social Icons */}
           <div className="flex gap-8 pt-2 [&_a]:hover:scale-100 [&_a]:focus:outline-none [&_a]:outline-none">
             <a
-              href="www.linkedin.com/in/sammyaladee"
+              href="https://linkedin.com/in/sammyaladee"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:outline-none focus:outline-none"
